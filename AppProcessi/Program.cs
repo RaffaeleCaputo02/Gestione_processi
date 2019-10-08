@@ -14,7 +14,7 @@ namespace AppProcessi
         {
             Console.WriteLine("Esercitazione sulla gestione dei processi");
             Process.Start("Notepad.exe");
-            Process.Start("Notepad.exe", @"C:\Users\docente\Source\Repos\Gestione_processi\AppProcessi\HelloWorld.txt");
+            Process.Start("Notepad.exe", @"File\HelloWorld.txt");
             Process.Start("Chrome.exe", @"https://www.youtube.it");
             var app = new Process();
             app.StartInfo.FileName = @"Notepad.exe";
