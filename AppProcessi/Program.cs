@@ -30,6 +30,7 @@ namespace AppProcessi
                 if(p.ProcessName=="notepad")
                 {
                     p.Kill();
+
                 }
             }
             Console.WriteLine("Programma terminato!");
